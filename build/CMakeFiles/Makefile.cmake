@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/CMakeLists.txt"
+  "/Users/harsh/Documents/Minefall/CMakeLists.txt"
   "CMakeFiles/4.4.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.5/CMakeSystem.cmake"
   "/opt/homebrew/lib/cmake/SDL3/SDL3Config.cmake"
@@ -60,5 +60,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Plinko.dir/DependInfo.cmake"
+  "CMakeFiles/Minefall.dir/DependInfo.cmake"
   )

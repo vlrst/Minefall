@@ -1,5 +1,5 @@
-CMakeFiles/Plinko.dir/src/Plinko.cpp.o: \
-  /Users/harsh/Documents/Coding-Club-Casino-Project-2027/src/Plinko.cpp \
+CMakeFiles/Minefall.dir/src/Minefall.cpp.o: \
+  /Users/harsh/Documents/Minefall/src/Minefall.cpp \
   /opt/homebrew/include/SDL3/SDL.h \
   /opt/homebrew/include/SDL3/SDL_stdinc.h \
   /opt/homebrew/include/SDL3/SDL_platform_defines.h \
@@ -166,4 +166,4 @@ CMakeFiles/Plinko.dir/src/Plinko.cpp.o: \
   /opt/homebrew/include/SDL3/SDL_oldnames.h \
   /opt/homebrew/include/SDL3/SDL_main.h \
   /opt/homebrew/include/SDL3_image/SDL_image.h \
-  /Users/harsh/Documents/Coding-Club-Casino-Project-2027/src/../include/Plinko.hpp
+  /Users/harsh/Documents/Minefall/src/../include/Minefall.hpp

@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/harsh/Documents/Coding-Club-Casino-Project-2027
+CMAKE_SOURCE_DIR = /Users/harsh/Documents/Minefall
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/harsh/Documents/Coding-Club-Casino-Project-2027/build
+CMAKE_BINARY_DIR = /Users/harsh/Documents/Minefall/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles /Users/harsh/Documents/Coding-Club-Casino-Project-2027/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harsh/Documents/Minefall/build/CMakeFiles /Users/harsh/Documents/Minefall/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harsh/Documents/Minefall/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,48 +117,48 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Plinko
+# Target rules for targets named Minefall
 
 # Build rule for target.
-Plinko: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Plinko
-.PHONY : Plinko
+Minefall: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Minefall
+.PHONY : Minefall
 
 # fast build rule for target.
-Plinko/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plinko.dir/build.make CMakeFiles/Plinko.dir/build
-.PHONY : Plinko/fast
+Minefall/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minefall.dir/build.make CMakeFiles/Minefall.dir/build
+.PHONY : Minefall/fast
 
-src/Plinko.o: src/Plinko.cpp.o
-.PHONY : src/Plinko.o
+src/Minefall.o: src/Minefall.cpp.o
+.PHONY : src/Minefall.o
 
 # target to build an object file
-src/Plinko.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plinko.dir/build.make CMakeFiles/Plinko.dir/src/Plinko.cpp.o
-.PHONY : src/Plinko.cpp.o
+src/Minefall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minefall.dir/build.make CMakeFiles/Minefall.dir/src/Minefall.cpp.o
+.PHONY : src/Minefall.cpp.o
 
-src/Plinko.i: src/Plinko.cpp.i
-.PHONY : src/Plinko.i
+src/Minefall.i: src/Minefall.cpp.i
+.PHONY : src/Minefall.i
 
 # target to preprocess a source file
-src/Plinko.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plinko.dir/build.make CMakeFiles/Plinko.dir/src/Plinko.cpp.i
-.PHONY : src/Plinko.cpp.i
+src/Minefall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minefall.dir/build.make CMakeFiles/Minefall.dir/src/Minefall.cpp.i
+.PHONY : src/Minefall.cpp.i
 
-src/Plinko.s: src/Plinko.cpp.s
-.PHONY : src/Plinko.s
+src/Minefall.s: src/Minefall.cpp.s
+.PHONY : src/Minefall.s
 
 # target to generate assembly for a file
-src/Plinko.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plinko.dir/build.make CMakeFiles/Plinko.dir/src/Plinko.cpp.s
-.PHONY : src/Plinko.cpp.s
+src/Minefall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minefall.dir/build.make CMakeFiles/Minefall.dir/src/Minefall.cpp.s
+.PHONY : src/Minefall.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plinko.dir/build.make CMakeFiles/Plinko.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minefall.dir/build.make CMakeFiles/Minefall.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -166,7 +166,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plinko.dir/build.make CMakeFiles/Plinko.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minefall.dir/build.make CMakeFiles/Minefall.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +174,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plinko.dir/build.make CMakeFiles/Plinko.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minefall.dir/build.make CMakeFiles/Minefall.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -185,10 +185,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Plinko"
-	@echo "... src/Plinko.o"
-	@echo "... src/Plinko.i"
-	@echo "... src/Plinko.s"
+	@echo "... Minefall"
+	@echo "... src/Minefall.o"
+	@echo "... src/Minefall.i"
+	@echo "... src/Minefall.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

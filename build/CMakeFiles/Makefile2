@@ -54,20 +54,20 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/harsh/Documents/Coding-Club-Casino-Project-2027
+CMAKE_SOURCE_DIR = /Users/harsh/Documents/Minefall
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/harsh/Documents/Coding-Club-Casino-Project-2027/build
+CMAKE_BINARY_DIR = /Users/harsh/Documents/Minefall/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Plinko.dir/all
+all: CMakeFiles/Minefall.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/Plinko.dir/codegen
+codegen: CMakeFiles/Minefall.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Plinko.dir/clean
+clean: CMakeFiles/Minefall.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Plinko.dir
+# Target rules for target CMakeFiles/Minefall.dir
 
 # All Build rule for target.
-CMakeFiles/Plinko.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plinko.dir/build.make CMakeFiles/Plinko.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plinko.dir/build.make CMakeFiles/Plinko.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles --progress-num=1,2,3 "Built target Plinko"
-.PHONY : CMakeFiles/Plinko.dir/all
+CMakeFiles/Minefall.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minefall.dir/build.make CMakeFiles/Minefall.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minefall.dir/build.make CMakeFiles/Minefall.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/harsh/Documents/Minefall/build/CMakeFiles --progress-num=1,2,3 "Built target Minefall"
+.PHONY : CMakeFiles/Minefall.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Plinko.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Plinko.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles 0
-.PHONY : CMakeFiles/Plinko.dir/rule
+CMakeFiles/Minefall.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harsh/Documents/Minefall/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Minefall.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harsh/Documents/Minefall/build/CMakeFiles 0
+.PHONY : CMakeFiles/Minefall.dir/rule
 
 # Convenience name for target.
-Plinko: CMakeFiles/Plinko.dir/rule
-.PHONY : Plinko
+Minefall: CMakeFiles/Minefall.dir/rule
+.PHONY : Minefall
 
 # codegen rule for target.
-CMakeFiles/Plinko.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plinko.dir/build.make CMakeFiles/Plinko.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target Plinko"
-.PHONY : CMakeFiles/Plinko.dir/codegen
+CMakeFiles/Minefall.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minefall.dir/build.make CMakeFiles/Minefall.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/harsh/Documents/Minefall/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target Minefall"
+.PHONY : CMakeFiles/Minefall.dir/codegen
 
 # clean rule for target.
-CMakeFiles/Plinko.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plinko.dir/build.make CMakeFiles/Plinko.dir/clean
-.PHONY : CMakeFiles/Plinko.dir/clean
+CMakeFiles/Minefall.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minefall.dir/build.make CMakeFiles/Minefall.dir/clean
+.PHONY : CMakeFiles/Minefall.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

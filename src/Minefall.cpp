@@ -1,7 +1,7 @@
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 #include <SDL3_image/SDL_image.h>
-#include "../include/Plinko.hpp"
+#include "../include/Minefall.hpp"
 #define SCREEN_HEIGHT 600
 #define SCREEN_WIDTH 800
 

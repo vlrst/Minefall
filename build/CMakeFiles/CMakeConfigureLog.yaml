@@ -254,7 +254,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/4.4.5/CompilerIdCXX/a.out
+        /Users/harsh/Documents/Minefall/build/CMakeFiles/4.4.5/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -998,8 +998,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/CMakeScratch/TryCompile-pyl7Ne"
-      binary: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/CMakeScratch/TryCompile-pyl7Ne"
+      source: "/Users/harsh/Documents/Minefall/build/CMakeFiles/CMakeScratch/TryCompile-vfHNK7"
+      binary: "/Users/harsh/Documents/Minefall/build/CMakeFiles/CMakeScratch/TryCompile-vfHNK7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1013,19 +1013,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/CMakeScratch/TryCompile-pyl7Ne'
+        Change Dir: '/Users/harsh/Documents/Minefall/build/CMakeFiles/CMakeScratch/TryCompile-vfHNK7'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2dce0/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2dce0.dir/build.make CMakeFiles/cmTC_2dce0.dir/build
-        Building CXX object CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ca2e9/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ca2e9.dir/build.make CMakeFiles/cmTC_ca2e9.dir/build
+        Building CXX object CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 21.0.0 (clang-2100.0.123.102)
         Target: arm64-apple-darwin27.0.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.4.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.4 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/CMakeScratch/TryCompile-pyl7Ne -target-linker-version 1266.8 -v -fcoverage-compilation-dir=/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/CMakeScratch/TryCompile-pyl7Ne -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.4.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.4 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/harsh/Documents/Minefall/build/CMakeFiles/CMakeScratch/TryCompile-vfHNK7 -target-linker-version 1266.8 -v -fcoverage-compilation-dir=/Users/harsh/Documents/Minefall/build/CMakeFiles/CMakeScratch/TryCompile-vfHNK7 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 21.0.0 (clang-2100.0.123.102) default target arm64-apple-darwin27.0.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1039,13 +1039,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_2dce0
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dce0.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_ca2e9
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca2e9.dir/link.txt --verbose=1
         Apple clang version 21.0.0 (clang-2100.0.123.102)
         Target: arm64-apple-darwin27.0.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.4.0 26.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_2dce0 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.4.0 26.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_ca2e9 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1266.8
         BUILD 16:03:08 Mar  6 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1058,7 +1058,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2dce0
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ca2e9
         
       exitCode: 0
   -
@@ -1104,19 +1104,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/CMakeScratch/TryCompile-pyl7Ne']
+        ignore line: [Change Dir: '/Users/harsh/Documents/Minefall/build/CMakeFiles/CMakeScratch/TryCompile-vfHNK7']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2dce0/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2dce0.dir/build.make CMakeFiles/cmTC_2dce0.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ca2e9/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ca2e9.dir/build.make CMakeFiles/cmTC_ca2e9.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 21.0.0 (clang-2100.0.123.102)]
         ignore line: [Target: arm64-apple-darwin27.0.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.4.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.4 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/CMakeScratch/TryCompile-pyl7Ne -target-linker-version 1266.8 -v -fcoverage-compilation-dir=/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/CMakeScratch/TryCompile-pyl7Ne -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.4.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.4 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/harsh/Documents/Minefall/build/CMakeFiles/CMakeScratch/TryCompile-vfHNK7 -target-linker-version 1266.8 -v -fcoverage-compilation-dir=/Users/harsh/Documents/Minefall/build/CMakeFiles/CMakeScratch/TryCompile-vfHNK7 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 21.0.0 (clang-2100.0.123.102) default target arm64-apple-darwin27.0.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1130,14 +1130,14 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_2dce0]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dce0.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_ca2e9]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca2e9.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 21.0.0 (clang-2100.0.123.102)]
         ignore line: [Target: arm64-apple-darwin27.0.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.4.0 26.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_2dce0 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> linker [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.4.0 26.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_2dce0 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.4.0 26.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_ca2e9 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> linker [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.4.0 26.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_ca2e9 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1154,12 +1154,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_2dce0] ==> ignore
+          arg [cmTC_ca2e9] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_2dce0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ca2e9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
@@ -1236,35 +1236,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/SDL3Config.cmake"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/SDL3Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/sdl3-config.cmake"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/sdl3-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/lib64/cps/SDL3.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/lib64/cps/SDL3.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/lib64/cps/sdl3.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/lib64/cps/sdl3.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/lib/cps/SDL3.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/lib/cps/SDL3.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/lib/cps/sdl3.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/lib/cps/sdl3.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/share/cps/SDL3.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/share/cps/SDL3.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/share/cps/sdl3.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/share/cps/sdl3.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1523,10 +1523,18 @@ events:
         path: "/opt/homebrew/share/cps/sdl3.cps"
         mode: "cps"
         reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/SDL3_image/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/SDL3_image/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
     found:
       path: "/opt/homebrew/lib/cmake/SDL3/SDL3Config.cmake"
       mode: "config"
-      version: "3.4.18"
+      version: "3.4.20"
     search_context:
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1567,10 +1575,6 @@ events:
         - "/Library/Frameworks"
         - "/Network/Library/Frameworks"
         - "/System/Library/Frameworks"
-...
-
----
-events:
   -
     kind: "find_package-v1"
     backtrace:
@@ -1613,35 +1617,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/SDL3_imageConfig.cmake"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/SDL3_imageConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/sdl3_image-config.cmake"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/sdl3_image-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/lib64/cps/SDL3_image.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/lib64/cps/SDL3_image.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/lib64/cps/sdl3_image.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/lib64/cps/sdl3_image.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/lib/cps/SDL3_image.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/lib/cps/SDL3_image.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/lib/cps/sdl3_image.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/lib/cps/sdl3_image.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/share/cps/SDL3_image.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/share/cps/SDL3_image.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/build/CMakeFiles/pkgRedirects/share/cps/sdl3_image.cps"
+        path: "/Users/harsh/Documents/Minefall/build/CMakeFiles/pkgRedirects/share/cps/sdl3_image.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1900,391 +1904,10 @@ events:
         path: "/opt/homebrew/share/cps/sdl3_image.cps"
         mode: "cps"
         reason: "no_exist"
-      -
-        path: "/Users/harsh/.cargo/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/.cargo/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/.cargo/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/.cargo/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/.cargo/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/.cargo/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/.cargo/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/.cargo/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/System/Library/Frameworks/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/System/Library/Frameworks/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/System/Library/Frameworks/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/System/Library/Frameworks/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/System/Library/Frameworks/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/System/Library/Frameworks/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/System/Library/Frameworks/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/System/Library/Frameworks/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/Applications/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/Applications/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/Applications/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/Applications/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/Applications/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/Applications/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/Applications/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/harsh/Applications/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Applications/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Applications/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Applications/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Applications/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Applications/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Applications/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Applications/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Applications/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Applications/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Applications/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Applications/lib64/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Applications/lib64/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Applications/lib/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Applications/lib/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Applications/share/cps/SDL3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Applications/Xcode.app/Contents/Developer/Applications/share/cps/sdl3_image.cps"
-        mode: "cps"
-        reason: "no_exist"
-    found: null
+    found:
+      path: "/opt/homebrew/lib/cmake/SDL3_image/SDL3_imageConfig.cmake"
+      mode: "config"
+      version: "3.4.8"
     search_context:
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/src/Plinko.cpp" "CMakeFiles/Plinko.dir/src/Plinko.cpp.o" "gcc" "CMakeFiles/Plinko.dir/src/Plinko.cpp.o.d"
-  "/Users/harsh/Documents/Coding-Club-Casino-Project-2027/src/main.cpp" "CMakeFiles/Plinko.dir/src/main.cpp.o" "gcc" "CMakeFiles/Plinko.dir/src/main.cpp.o.d"
+  "/Users/harsh/Documents/Minefall/src/Minefall.cpp" "CMakeFiles/Minefall.dir/src/Minefall.cpp.o" "gcc" "CMakeFiles/Minefall.dir/src/Minefall.cpp.o.d"
+  "/Users/harsh/Documents/Minefall/src/main.cpp" "CMakeFiles/Minefall.dir/src/main.cpp.o" "gcc" "CMakeFiles/Minefall.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

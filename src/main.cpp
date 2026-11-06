@@ -1,4 +1,4 @@
-#include "../include/Plinko.hpp"
+#include "../include/Minefall.hpp"
 
 int main(int argc, char** argv) {
 	grun();
