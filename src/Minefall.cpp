@@ -2,6 +2,7 @@
 #include <SDL3/SDL_main.h>
 #include <SDL3_image/SDL_image.h>
 #include "../include/Minefall.hpp"
+#include "../include/Object.hpp"
 #define SCREEN_HEIGHT 600
 #define SCREEN_WIDTH 800
 
@@ -24,13 +25,16 @@ void grun() {
 	state.logH = 800;
 	if (!initialize(state)) {
 		printf("INITIALIZATION ERROR");
-	} 
-
+	}
+	Object* dynamite = new Object("Dynamite");
 	SDL_Texture* idleTex = IMG_LoadTexture(state.renderer, "./images/transparent/dynamite.png"); // make the file in respect to where you are building the project 
 	if (!idleTex) {
 
 		printf("DYNAMITE TEXTURE ERROR");
 	}
+
+	dynamite->texture = idleTex;
+
 	SDL_SetTextureScaleMode(idleTex, SDL_SCALEMODE_NEAREST); 
 	// sdl texture loaded on gpu and sdl_surface loaded on system memory
 
@@ -60,14 +64,21 @@ void grun() {
 	// do time based movement instead of frame based movement because different people have different hardware leading to different frame rates
 
 	float moveAmount = 0;
-	float horizontalSpeed = 75.f;
+	//float horizontalSpeed = 75.f;
+	dynamite->setSpeed(75, 0);
 	if (keys[SDL_SCANCODE_A]) {
-		moveAmount += -horizontalSpeed;
+		//moveAmount += -horizontalSpeed;
+		dynamite->changeSpeed(-dynamite->speedX, 0);
+		//dynamite->updatePosition();
+		
 	}
 	if (keys[SDL_SCANCODE_D]) {
-		moveAmount += horizontalSpeed;
-
+		//moveAmount += horizontalSpeed;
+		dynamite->changeSpeed(dynamite->speedX, 0);
+		//dynamite->updatePosition();
 	} 
+
+	dynamite->updatePosition();
 	playerX += moveAmount * deltaTime;
 
 	
@@ -76,7 +87,9 @@ void grun() {
 	
 	SDL_RenderClear(state.renderer);
 	const float spriteSize = 128.f;
-	SDL_FRect src {
+	dynamite->spriteSize = 128.f;
+	//SDL_FRect src {
+	dynamite->src = {
 		.x = 0,
 		.y = 0,
 		.w = spriteSize,
@@ -85,15 +98,21 @@ void grun() {
 	
 
 	// sizing
-	SDL_FRect destination {
+	
+	dynamite->destination = { 
+	//SDL_FRect destination {
+	
 	 	.x = playerX,
-		.y = floor - spriteSize,
+		/*.y = floor - spriteSize,*/
+		.y = playerY,
 		.w = spriteSize,
 		.h = spriteSize
 	}; 
+	
+	
 	//SDL_RenderTexture(state.renderer, idleTex, &src, nullptr);
 	//SDL_RenderTexture(state.renderer, idleTex, nullptr, &destination); 
-	SDL_RenderTextureRotated(
+	/*SDL_RenderTextureRotated(
 			state.renderer,
 			idleTex,
 			nullptr,
@@ -102,11 +121,21 @@ void grun() {
 			nullptr,
 			SDL_FLIP_NONE
 			);
+	*/
+	SDL_RenderTextureRotated(
+			state.renderer,
+			dynamite->texture,
+			nullptr,
+			&dynamite->destination,
+			-90.0f,
+			nullptr,
+			SDL_FLIP_NONE
+			 );
 	SDL_RenderPresent(state.renderer);
 	prevTime = nowTime;
 	}
 	// free the vram used from textures
-	SDL_DestroyTexture(idleTex);
+	SDL_DestroyTexture(dynamite->texture);
 	cleanup(state);
 	
 } 
