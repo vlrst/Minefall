@@ -3,6 +3,7 @@
 #include <SDL3_image/SDL_image.h>
 #include "../include/Minefall.hpp"
 #include "../include/Object.hpp"
+#include <iostream>
 #define SCREEN_HEIGHT 600
 #define SCREEN_WIDTH 800
 
@@ -65,21 +66,28 @@ void grun() {
 
 	float moveAmount = 0;
 	//float horizontalSpeed = 75.f;
-	dynamite->setSpeed(75, 0);
+	dynamite->setSpeed(75, 0); // do not set this to any value to avoid double counting
+									// if i hold both the left and right, it will go left at double the speed (considering the speed is +75)
 	if (keys[SDL_SCANCODE_A]) {
+		std::cout << "A\n";
 		//moveAmount += -horizontalSpeed;
-		dynamite->changeSpeed(-dynamite->speedX, 0);
-		//dynamite->updatePosition();
+		//dynamite->setSpeed(-dynamite->speedX, 0);
+		dynamite->setSpeed(-75, 0); 
+		dynamite->updatePosition();
 		
 	}
 	if (keys[SDL_SCANCODE_D]) {
+		std::cout << "D\n";
 		//moveAmount += horizontalSpeed;
-		dynamite->changeSpeed(dynamite->speedX, 0);
-		//dynamite->updatePosition();
+		dynamite->setSpeed(dynamite->speedX, 0); // change func from changeSpeed to setSpeed()
+		dynamite->setSpeed(75, 0);
+		dynamite->updatePosition();
 	} 
-
-	dynamite->updatePosition();
-	playerX += moveAmount * deltaTime;
+	//dynamite->x += moveAmount * deltaTime;
+	std::cout << dynamite->x << std::endl;
+	//dynamite->updatePosition();
+	
+	//playerX += moveAmount * deltaTime;
 
 	
 	// draw
@@ -102,9 +110,9 @@ void grun() {
 	dynamite->destination = { 
 	//SDL_FRect destination {
 	
-	 	.x = playerX,
+	 	.x = float(dynamite->x)/20,
 		/*.y = floor - spriteSize,*/
-		.y = playerY,
+		.y = float(dynamite->y),
 		.w = spriteSize,
 		.h = spriteSize
 	}; 

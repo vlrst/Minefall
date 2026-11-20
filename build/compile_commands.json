@@ -1,14 +1,26 @@
 [
 {
   "directory": "/Users/harsh/Documents/Minefall/build",
-  "command": "/usr/bin/c++  -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/Minefall.dir/src/main.cpp.o -c /Users/harsh/Documents/Minefall/src/main.cpp",
-  "file": "/Users/harsh/Documents/Minefall/src/main.cpp",
-  "output": "CMakeFiles/Minefall.dir/src/main.cpp.o"
-},
-{
-  "directory": "/Users/harsh/Documents/Minefall/build",
   "command": "/usr/bin/c++  -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/Minefall.dir/src/Minefall.cpp.o -c /Users/harsh/Documents/Minefall/src/Minefall.cpp",
   "file": "/Users/harsh/Documents/Minefall/src/Minefall.cpp",
   "output": "CMakeFiles/Minefall.dir/src/Minefall.cpp.o"
+},
+{
+  "directory": "/Users/harsh/Documents/Minefall/build",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/Minefall.dir/src/Object.cpp.o -c /Users/harsh/Documents/Minefall/src/Object.cpp",
+  "file": "/Users/harsh/Documents/Minefall/src/Object.cpp",
+  "output": "CMakeFiles/Minefall.dir/src/Object.cpp.o"
+},
+{
+  "directory": "/Users/harsh/Documents/Minefall/build",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/Minefall.dir/src/Physics.cpp.o -c /Users/harsh/Documents/Minefall/src/Physics.cpp",
+  "file": "/Users/harsh/Documents/Minefall/src/Physics.cpp",
+  "output": "CMakeFiles/Minefall.dir/src/Physics.cpp.o"
+},
+{
+  "directory": "/Users/harsh/Documents/Minefall/build",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/Minefall.dir/src/main.cpp.o -c /Users/harsh/Documents/Minefall/src/main.cpp",
+  "file": "/Users/harsh/Documents/Minefall/src/main.cpp",
+  "output": "CMakeFiles/Minefall.dir/src/main.cpp.o"
 }
 ]

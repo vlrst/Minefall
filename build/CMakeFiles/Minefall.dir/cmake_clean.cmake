@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Minefall.dir/src/Minefall.cpp.o"
   "CMakeFiles/Minefall.dir/src/Minefall.cpp.o.d"
+  "CMakeFiles/Minefall.dir/src/Object.cpp.o"
+  "CMakeFiles/Minefall.dir/src/Object.cpp.o.d"
+  "CMakeFiles/Minefall.dir/src/Physics.cpp.o"
+  "CMakeFiles/Minefall.dir/src/Physics.cpp.o.d"
   "CMakeFiles/Minefall.dir/src/main.cpp.o"
   "CMakeFiles/Minefall.dir/src/main.cpp.o.d"
   "Minefall"

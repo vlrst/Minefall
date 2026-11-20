@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/harsh/Documents/Minefall/src/Minefall.cpp" "CMakeFiles/Minefall.dir/src/Minefall.cpp.o" "gcc" "CMakeFiles/Minefall.dir/src/Minefall.cpp.o.d"
+  "/Users/harsh/Documents/Minefall/src/Object.cpp" "CMakeFiles/Minefall.dir/src/Object.cpp.o" "gcc" "CMakeFiles/Minefall.dir/src/Object.cpp.o.d"
+  "/Users/harsh/Documents/Minefall/src/Physics.cpp" "CMakeFiles/Minefall.dir/src/Physics.cpp.o" "gcc" "CMakeFiles/Minefall.dir/src/Physics.cpp.o.d"
   "/Users/harsh/Documents/Minefall/src/main.cpp" "CMakeFiles/Minefall.dir/src/main.cpp.o" "gcc" "CMakeFiles/Minefall.dir/src/main.cpp.o.d"
   )
 
